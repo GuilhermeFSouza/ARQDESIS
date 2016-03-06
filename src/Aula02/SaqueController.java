@@ -9,8 +9,9 @@ import java.util.ResourceBundle;
 
 import javax.swing.JOptionPane;
 
+import beans.Conta;
+
 import Aula02.ConexaoBD;
-import Aula02.Conta;
 import Aula02.Log;
 import Aula02.Notas;
 import Aula02.Saque;
