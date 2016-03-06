@@ -1,7 +1,7 @@
 package originals.ProjetoIntegrado.src.projeto.caixa.eletronico.view;
 import javax.swing.*;
 
-import projeto.caixa.eletronico.model.Acesso;
+import originals.ProjetoIntegrado.src.projeto.caixa.eletronico.model.Acesso;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -87,13 +87,14 @@ public class TelaSaque extends JFrame implements ActionListener{
 		setVisible(true);
 		setSize(800, 600);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
-
+		/* Depende de bundle e objeto de Acesso
 		voltar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				TelaMenuUsuario MU = new TelaMenuUsuario(locale, bundleLocale, acesso);
 				dispose();
 			}
 		});
+		*/
 	}
 	public void setLocation(Locale locale, ResourceBundle bundle){
 		this.locale = locale;
