@@ -1,3 +1,4 @@
+//DAO para manipulação dos arquivos *.txt
 package Aula02;
 
 import java.io.BufferedReader;
